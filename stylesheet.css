@@ -19,6 +19,12 @@ header{
     gap: 4vw;
 
 }
+#logo{
+    width: 100px;
+    border-style: solid;
+    
+    
+}
 footer{
     display: flex;
     background-color: white;
@@ -36,6 +42,7 @@ span{
     padding: 0.5vw;
     color: darkslategray;
     text-decoration: none;
+    align-content: center;
 
 }
 
@@ -60,7 +67,7 @@ h1{
     text-align: center;
 }
 .my_social_media{
-    width: 5vw;
+    width: 4vw;
 
 }
 
@@ -70,7 +77,7 @@ h1{
   margin: 2rem;
 }
 #introduction{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     background-color: rgb(61, 102, 102);
     color: white;
     border-color: rgb(30, 51, 51);
@@ -155,6 +162,8 @@ h1{
 }
 
 /*Source references*/
-ul{
+.sources{
     color: white;
+    font-style: 10rem;
+    justify-content: center;
 }
