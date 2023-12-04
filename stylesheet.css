@@ -46,13 +46,7 @@ span{
 
 }
 
-{
-    font-size: 1.5vw;
-    background-color: rgb(61, 102, 102);
-    color: white;
-    border-color: rgb(30, 51, 51);
-    border-style: solid;
-}
+
 h1{
     background-color: rgb(61, 102, 102);
     color: white;
@@ -98,15 +92,14 @@ h1{
 }
 .hobbies{
     display: grid;
-    background-color: rgb(61, 102, 102);
+    background-color: darkslategray;
     height: 300px;
     margin-left: 70px;
     margin-right: 70px;
     justify-content: space-evenly;
     align-content: center;
     grid-template-areas: '';
-    border-style: solid;
-    border-color: rgb(30, 51, 51);
+    
 }
 .hobby_item{
     grid-row: 1/2;
@@ -203,15 +196,14 @@ h1{
 /*Favourites*/
 .favourites{
     display: grid;
-    background-color: rgb(61, 102, 102);
+    background-color: darkslategray;
     height: 300px;
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-evenly;
     align-content: center;
     grid-template-areas: '';
-    border-style: solid;
-    border-color: rgb(30, 51, 51);
+    
 }
 .favourite_item{
     grid-row: 1/2;
@@ -225,6 +217,7 @@ h1{
     border-color: rgb(30, 51, 51);
     padding: 12rem 7rem 12rem 7rem;
     background-color: rgb(61, 102, 102);
+    margin: 0rem;
     
 }
 
@@ -246,7 +239,8 @@ h1{
 
 /*Video Games*/
 .game_posters{
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .videogame_item{
