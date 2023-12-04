@@ -64,6 +64,9 @@ h1{
     width: 4vw;
 
 }
+.white_box{
+    background-color: white;
+}
 
 /* Home */
 
@@ -96,7 +99,7 @@ h1{
     height: 300px;
     margin-left: 70px;
     margin-right: 70px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     grid-template-areas: '';
     
@@ -200,7 +203,7 @@ h1{
     height: 300px;
     margin-left: 100px;
     margin-right: 100px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
     grid-template-areas: '';
     
