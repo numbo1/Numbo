@@ -227,3 +227,28 @@ h1{
     background-color: rgb(61, 102, 102);
     
 }
+
+/*Music*/
+.artists{
+    display: flex;
+    width: 100rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.music_flex{
+    display: flex;
+    justify-content: center;
+}
+.some_artists{
+    margin-bottom: 10rem;
+}
+
+/*Video Games*/
+.game_posters{
+    display: grid;
+}
+
+.videogame_item{
+    height: 30rem;
+}
