@@ -96,6 +96,32 @@ h1{
     border-style: solid;
     border-color: rgb(30, 51, 51);
 }
+.hobbies{
+    display: grid;
+    background-color: rgb(61, 102, 102);
+    height: 300px;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: space-evenly;
+    align-content: center;
+    grid-template-areas: '';
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+}
+.hobby_item{
+    grid-row: 1/2;
+    
+}
+.hobby_text{
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    padding: 12rem 7rem 12rem 7rem;
+    background-color: rgb(61, 102, 102);
+    
+}
 
 /*Calculator*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
@@ -154,18 +180,24 @@ h1{
 }
 
 /*Video Gallery*/
-#video{
+#video_gallery{
     display: flex;
     justify-content: center;
-    gap: 4vw;
+    gap: 2rem;
     
 }
+
 
 /*Source references*/
 .sources{
     color: white;
     font-style: 10rem;
     justify-content: center;
+}
+.thank_you{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
 }
 
 /*Favourites*/
@@ -178,12 +210,20 @@ h1{
     justify-content: space-evenly;
     align-content: center;
     grid-template-areas: '';
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
 }
 .favourite_item{
     grid-row: 1/2;
+    
 }
 .box_text{
     text-decoration: none;
     color: white;
-    font-size: rem;
+    font-size: 4rem;
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    padding: 12rem 7rem 12rem 7rem;
+    background-color: rgb(61, 102, 102);
+    
 }
