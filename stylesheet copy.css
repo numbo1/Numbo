@@ -8,50 +8,12 @@ body{
     margin: 0;
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    font-size: 2.6vw;
-    color: darkslategray;
-    padding: 1vw 1vw 1vw 1vw;
-    gap: 4vw;
 
-}
-#logo{
-    width: 10rem;
-    border-style: solid;
-    
-    
-}
-#logo:hover{
-    width: 11rem;
-}
-footer{
-    display: flex;
-    background-color: white;
-    margin: 55vh 0 0 0;
-    padding: 1vw;
-    gap: 2vw;
-    
-}
-.my_social_media:hover{
-    width: 10rem;
-}
-span{
-    margin: 4vw;
+.item1{
+    width: 5rem;
 }
 
-.menu{
-    border-style: solid;
-    border-color: rgb(30, 51, 51);
-    padding: 0.5vw;
-    color: darkslategray;
-    text-decoration: none;
-    align-content: center;
 
-}
 
 
 h1{
@@ -220,7 +182,6 @@ h1{
     grid-row: 1/2;
     
 }
-
 .box_text{
     text-decoration: none;
     color: white;
@@ -234,34 +195,39 @@ h1{
 }
 
 /*Music*/
-.artists{
-    display: flex;
-    width: 100rem;
-    gap: 3rem;
-    flex-wrap: wrap;
-    
-}
-.music_flex{
-    display: flex;
-    justify-content: center;
-}
 .some_artists{
     margin-bottom: 10rem;
 }
+.item1 { grid-area: header; }
+    .item2 { grid-area: menu; }
+    .item3 { grid-area: main; }
+    .item4 { grid-area: right; }
+    .item5 { grid-area: footer; }
 
+    .grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'main main main main main'
+        'footer footer footer footer footer footer';
+    gap: 10px;
+    background-color: black;
+    padding: 10px;
+    }
+
+    .grid-container > div {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    }
 
 /*Video Games*/
 .game_posters{
     display: flex;
     justify-content: space-evenly;
-    background-color: darkslategray;
 }
 
 .videogame_item{
     height: 30rem;
-    background-color: darkslategray;
-}
-.videogame_item:hover{
-    width: 25rem;
-    height: 35rem;
 }
