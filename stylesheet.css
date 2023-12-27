@@ -75,7 +75,7 @@ h1{
     text-align: center;
 }
 .my_social_media{
-    width: 8%;
+    width: 8rem;
     align-items: center;
     transition: transform 0.2s ease;
 }

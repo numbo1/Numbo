@@ -222,10 +222,10 @@ h1{
 .box_text{
     text-decoration: none;
     color: white;
-    font-size: 4rem;
+    font-size: 10%;
     border-style: solid;
     border-color: rgb(30, 51, 51);
-    padding: 12rem 7rem 12rem 7rem;
+    padding: 10% 10% 10% 10%;
     background-color: rgb(61, 102, 102);
     margin: 0rem;
     
