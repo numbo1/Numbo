@@ -67,8 +67,8 @@ h1{
     border-color: rgb(30, 51, 51);
     border-style: solid;
     font-size: 5rem;
-    margin-left: 60rem;
-    margin-right: 60rem;
+    margin-left: 30%;
+    margin-right: 30%;
     margin-top: 2rem;
     margin-bottom: 1rem;
     grid-column: 1/1;
@@ -95,8 +95,8 @@ h1{
     border-color: rgb(30, 51, 51);
     border-style: solid;
     grid-row: 2/3;
-    margin-left: 40rem;
-    margin-right: 40rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
