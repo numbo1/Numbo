@@ -75,7 +75,7 @@ h1{
     text-align: center;
 }
 .my_social_media{
-    width: 4vw;
+    width: 8%;
     align-items: center;
     transition: transform 0.2s ease;
 }
@@ -220,9 +220,9 @@ h1{
 .favourites{
     display: grid;
     background-color: darkslategray;
-    height: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
     justify-content: center;
     align-content: center;
     grid-template-areas: '';
