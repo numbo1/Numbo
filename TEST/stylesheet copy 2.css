@@ -10,14 +10,15 @@ body{
 
 header{
     
-     center;
+    display: flex;
+    justify-content: center;
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 2.6vw;
     color: darkslategray;
     padding: 1vw 1vw 1vw 1vw;
     gap: 4vw;
-
+    
 }
 #logo{
     width: 10rem;

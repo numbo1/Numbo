@@ -12,53 +12,58 @@
     .grid-container {
     display: grid;
     grid-template-areas:
-        'header header header header header'
-        'main main main main right'
-        'main main main main right'
-        'footer footer footer footer footer';
+        
+        'main main main right '
+        'main main main right'
+        'footer footer footer footer';
     gap: 10%;
     
     }
 
     .grid-container > item3 {
     text-align: center;
-    padding: 5;
+    padding: 5px;
     font-size: 30px;
     
+    }
+    ul{
+        margin: 0 30% 0 30%;
+    }
+    span{
+        margin: 0 0 0 30%;
     }
     </style>
     <link rel="stylesheet" href="stylesheet copy 2.css">
     </head>
     <body>
 
-    
+        <header>
+            <img src="/Bilder/logo_numbo_modified.png" alt="logo"  id="logo">
+            <a href="index.html" class="menu">Home</a>
+            <a href="/Favourites/Favourites.html" class="menu">Favourites</a>
+            <a href="/Hobby/Hobby.html" class="menu">Hobby</a>
+            <a href="/Calculator/Calculator.html" class="menu">Calculator</a>
+            <a href="/Source_references.html" class="menu">Source references</a>
+            </header>
 
     <div class="grid-container">
         <div class="item6">
             
         </div>
-        <div class="item1">
-            <header>
-                <img src="/Bilder/logo_numbo_modified.png" alt="logo"  id="logo">
-                <a href="index.html" class="menu">Home</a>
-                <a href="/Favourites/Favourites.html" class="menu">Favourites</a>
-                <a href="/Hobby/Hobby.html" class="menu">Hobby</a>
-                <a href="/Calculator/Calculator.html" class="menu">Calculator</a>
-                <a href="/Source_references.html" class="menu">Source references</a>
-                </header>
-        </div>
+        
         
         <div class="item3">
             <h1>Sources</h1>
-                <a href="https://www.w3schools.com/" class="sources">w3schools</a> <br>
-                <a href="https://medium.com/@CKEspanol/79-blue-smiley-emojis-gallery-ffe84acc6a1a" class="sources">medium.com</a> <br>
-                <a href="https://open.spotify.com/" class="sources">Spotify.com</a> <br>
-                <a href="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" class="sources">Minecraft poster</a> <br>
+                <ul>
+                    <li><a href="https://www.w3schools.com/" class="sources">w3schools</a></li> <br>
+                    <li><a href="https://medium.com/@CKEspanol/79-blue-smiley-emojis-gallery-ffe84acc6a1a" class="sources">medium.com</a></li> <br>
+                    <li><a href="https://open.spotify.com/" class="sources">Spotify.com</a></li> <br>
+                    <li><a href="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" class="sources">Minecraft poster</a></li> <br>
+                </ul>
         </div>  
         <div class="item4">
             <div class="thank_you">
-                <span>THANK YOU! <br>
-                    For visiting my website</span>
+                
             </div>
         </div>
         

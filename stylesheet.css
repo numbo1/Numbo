@@ -208,13 +208,11 @@ h1{
 .sources{
     color: white;
     font-style: 10rem;
-    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgb(61, 102, 102);
 }
-.thank_you{
-    display: flex;
-    background-color: white;
-    flex-direction: column;
-}
+
 
 /*Favourites*/
 .favourites{
@@ -231,7 +229,7 @@ h1{
 }
 
 .favourite_item{
-    grid-row: 1/2;
+    grid-row: 1;
     transition: transform 0.2s ease;
 }
 .favourite_item:hover{
