@@ -13,15 +13,15 @@ header{
     justify-content: center;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    font-size: 2.6vw;
+    font-size: 4em;
     color: darkslategray;
-    padding: 1vw;
-    gap: 4rem;
+    padding: 0.3em;
+    gap: 1em;
     
 
 }
 #logo{
-    width: 10rem;
+    width: 3em;
     border-style: solid;
     transition: transform 0.2s ease;
     
@@ -33,9 +33,12 @@ header{
 footer{
     display: flex;
     background-color: white;
-    margin: 55vh 0 0 0;
+    margin: 0;
     gap: 2rem;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     
 }
 .my_social_media:hover{
@@ -49,7 +52,7 @@ span{
 .menu{
     border-style: solid;
     border-color: rgb(30, 51, 51);
-    padding: 0.5vw;
+    padding: 0.2em;
     color: darkslategray;
     text-decoration: none;
     align-content: center;
@@ -66,7 +69,7 @@ h1{
     color: white;
     border-color: rgb(30, 51, 51);
     border-style: solid;
-    font-size: 5rem;
+    font-size: 4em;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 2rem;
@@ -97,6 +100,18 @@ h2{
 }
 .white_box{
     background-color: white;
+}
+
+.explanation{
+    text-align: center;
+    background-color: rgb(61, 102, 102);
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    color: white;
+    font-size: 2rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2em;
 }
 
 /* Home */
@@ -253,6 +268,7 @@ h2{
     height: 30rem;
     margin-left: 7rem;
     margin-right: 7rem;
+    margin-bottom: 60em;
     justify-content: center;
     align-content: center;
     grid-template-areas: '';
@@ -319,16 +335,7 @@ h2{
     aspect-ratio: 10/1;
     object-fit: cover;
 }
-.explanation{
-    text-align: center;
-    background-color: rgb(61, 102, 102);
-    border-style: solid;
-    border-color: rgb(30, 51, 51);
-    color: white;
-    font-size: 2rem;
-    margin-left: 25%;
-    margin-right: 25%;
-}
+
 .classical_bangers{
    margin-top: 1rem;
    
