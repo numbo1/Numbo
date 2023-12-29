@@ -265,10 +265,9 @@ h2{
 .favourites{
     display: grid;
     background-color: darkslategray;
-    height: 30rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
-    margin-bottom: 60em;
+    height: 30em;
+    margin-left: 7em;
+    margin-right: 7em;
     justify-content: center;
     align-content: center;
     grid-template-areas: '';
@@ -287,10 +286,10 @@ h2{
 .box_text{
     text-decoration: none;
     color: white;
-    font-size: 4rem;
+    font-size: 4em;
     border-style: solid;
     border-color: rgb(30, 51, 51);
-    padding: 12rem 7rem 12rem 7rem;
+    padding: 2.5em 2em 2.5em 2em;
     background-color: rgb(61, 102, 102);
     margin: 0rem;
     
