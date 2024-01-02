@@ -18,6 +18,7 @@ header{
     padding: 0.3em;
     gap: 1em;
     
+    
 
 }
 #logo{
@@ -54,7 +55,7 @@ span{
     padding: 0.2em;
     color: darkslategray;
     text-decoration: none;
-    align-content: center;
+    align-items: center;
     transition: transform 0.2s ease;
 
 }
@@ -85,7 +86,7 @@ h2{
     font-size: 3rem;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2rem;
+    margin-top: 1em;
     grid-column: 1/1;
     text-align: center;
 
@@ -227,6 +228,24 @@ h2{
     
 }
 
+/*Programming*/
+.white_border{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    padding: 0.1em;
+    margin: 0 5% 0 5%;
+}
+.coding_languages{
+    background-color: rgb(61, 102, 102);
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em 20% 1em 20%;
+}
 
 /*Source references*/
 .sources{
@@ -308,7 +327,8 @@ h2{
 /*Video Games*/
 .game_posters{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2em;
     background-color: darkslategray;
 }
 
@@ -334,4 +354,20 @@ h2{
 }
 .under_title{
     margin-top: 5rem;
+}
+
+/*Movies*/
+.movie_posters{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-color: darkslategray;
+}
+.movie_item{
+    height: 30rem;
+    background-color: darkslategray;
+    transition: transform 0.2s ease;
+}
+.movie_item:hover{
+    transform: scale(1.2);
 }
