@@ -13,16 +13,17 @@ header{
     justify-content: center;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    font-size: 4em;
+    font-size: 2vw;
     color: darkslategray;
-    padding: 0.3em;
-    gap: 1em;
+    padding: 0.5vw;
+    gap: 1.5vw;
+    min-height: 3em;
     
     
 
 }
 #logo{
-    width: 3em;
+    width: 5vw;
     border-style: solid;
     transition: transform 0.2s ease;
     
@@ -38,7 +39,8 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    height: 10em;
+    height: 5vw;
+    gap: 1vw;
     
 }
 .my_social_media:hover{
@@ -69,7 +71,7 @@ h1{
     color: white;
     border-color: rgb(30, 51, 51);
     border-style: solid;
-    font-size: 4em;
+    font-size: 2.5vw;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 2rem;
@@ -83,7 +85,7 @@ h2{
     color: white;
     border-color: rgb(30, 51, 51);
     border-style: solid;
-    font-size: 3rem;
+    font-size: 2vw;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1em;
@@ -93,9 +95,9 @@ h2{
 }
 
 .my_social_media{
-    width: 8rem;
+    width: 5vw;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1vw;
     transition: transform 0.2s ease;
 }
 .white_box{
@@ -108,7 +110,7 @@ h2{
     border-style: solid;
     border-color: rgb(30, 51, 51);
     color: white;
-    font-size: 2rem;
+    font-size: 1.5vw;
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2em;
@@ -120,7 +122,7 @@ h2{
   margin: 2rem;
 }
 #introduction{
-    font-size: 2.5rem;
+    font-size: 1.2vw;
     background-color: rgb(61, 102, 102);
     color: white;
     border-color: rgb(30, 51, 51);
@@ -137,8 +139,8 @@ h2{
     display: grid;
     background-color: darkslategray;
     height: 30em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 20%;
+    margin-right: 20%;
     justify-content: center;
     align-content: center;
     grid-template-areas: '';
@@ -156,11 +158,12 @@ h2{
 .hobby_text{
     text-decoration: none;
     color: white;
-    font-size: 4rem;
+    font-size: 2.5vw;
     border-style: solid;
     border-color: rgb(30, 51, 51);
-    padding: 2.5em 2em 2.5em 2em;
+    padding: 4vw;
     background-color: rgb(61, 102, 102);
+    margin: 0rem;
     
 }
 
@@ -243,14 +246,14 @@ h2{
     text-decoration: none;
     color: white;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5vw;
     margin: 1em 20% 1em 20%;
 }
 
 /*Source references*/
 .sources{
     color: white;
-    font-size: 3rem;
+    font-size: 1.5vw;
     text-decoration: none;
     transition: transform 0.2s ease;
 }
@@ -278,8 +281,8 @@ h2{
     display: grid;
     background-color: darkslategray;
     height: 30em;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 20%;
+    margin-right: 20%;
     justify-content: center;
     align-content: center;
     grid-template-areas: '';
@@ -298,10 +301,10 @@ h2{
 .box_text{
     text-decoration: none;
     color: white;
-    font-size: 4em;
+    font-size: 2.5vw;
     border-style: solid;
     border-color: rgb(30, 51, 51);
-    padding: 2.5em 2em 2.5em 2em;
+    padding: 4vw;
     background-color: rgb(61, 102, 102);
     margin: 0rem;
     
@@ -310,7 +313,7 @@ h2{
 /*Music*/
 .artists{
     display: flex;
-    width: 100rem;
+    width: 50vw;
     gap: 3rem;
     flex-wrap: wrap;
     
@@ -333,7 +336,7 @@ h2{
 }
 
 .videogame_item{
-    height: 30rem;
+    height: 15vw;
     background-color: darkslategray;
     transition: transform 0.2s ease;
 }
@@ -360,11 +363,11 @@ h2{
 .movie_posters{
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
     background-color: darkslategray;
 }
 .movie_item{
-    height: 30rem;
+    height: 15vw;
     background-color: darkslategray;
     transition: transform 0.2s ease;
 }
