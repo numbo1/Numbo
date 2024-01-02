@@ -88,7 +88,6 @@ h2{
     font-size: 2vw;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 1em;
     grid-column: 1/1;
     text-align: center;
 
@@ -114,6 +113,14 @@ h2{
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2em;
+}
+.white_border{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    padding: 1vw;
+    margin: 0 5% 0 5%;
+    text-align: center;
 }
 
 /* Home */
@@ -232,13 +239,7 @@ h2{
 }
 
 /*Programming*/
-.white_border{
-    background-color: white;
-    border-style: solid;
-    border-color: rgb(30, 51, 51);
-    padding: 0.1em;
-    margin: 0 5% 0 5%;
-}
+
 .coding_languages{
     background-color: rgb(61, 102, 102);
     border-style: solid;
@@ -248,6 +249,32 @@ h2{
     text-align: center;
     font-size: 1.5vw;
     margin: 1em 20% 1em 20%;
+}
+
+/*Reading*/
+.book_genres{
+    background-color: rgb(61, 102, 102);
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 1em 20% 1em 20%;
+}
+.book_link{
+    color: darkslategray;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+    padding: 0.3vw;
+    transition: transform 0.2s ease;
+}
+.book_link:hover{
+    transform: scale(1.2);
 }
 
 /*Source references*/
@@ -372,5 +399,37 @@ h2{
     transition: transform 0.2s ease;
 }
 .movie_item:hover{
+    transform: scale(1.2);
+}
+
+/*Series*/
+.series_posters{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    background-color: darkslategray;
+}
+.series_item{
+    height: 15vw;
+    background-color: darkslategray;
+    transition: transform 0.2s ease;
+}
+.series_item:hover{
+    transform: scale(1.2);
+}
+
+/*Books*/
+.book_posters{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    background-color: darkslategray;
+}
+.book_item{
+    height: 15vw;
+    background-color: darkslategray;
+    transition: transform 0.2s ease;
+}
+.book_item:hover{
     transform: scale(1.2);
 }
