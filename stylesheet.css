@@ -377,6 +377,17 @@ table, th, td{
 .videogame_item:hover{
     transform: scale(1.2);
 }
+.flex_container_games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+    
+
+}
 
 /*Piano*/
 .piano{
