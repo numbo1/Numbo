@@ -155,12 +155,12 @@ h2{
     
 }
 .hobby_item{
-    grid-row: 1/2;
-    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: white;
+    font-size: 2.5vw;
+    background-color: rgb(61, 102, 102);
+    padding: 3vw;
     
-}
-.hobby_item:hover{
-    transform: scale(1.2);
 }
 
 .hobby_text{
@@ -174,6 +174,43 @@ h2{
     margin: 0rem;
     
 }
+
+.title { grid-area: title;}
+.hobby1 { grid-area: videos; }
+.hobby2 { grid-area: programming; }
+.hobby3 { grid-area: reading; }
+.hobby4 { grid-area: piano; }
+.hobby5 { grid-area: portfolio; }
+.hobby6 { grid-area: drawing;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'title title title'
+        'videos programming reading'
+         'piano portfolio drawing';
+    align-content: center;
+    justify-content: center;
+    
+}
+.grid-container > div {
+    background-color: rgb(61, 102, 102);
+    border-style: solid;
+    border-color: rgb(30, 51, 51);
+    text-decoration: none;
+    color: white;
+    padding: 3vw 0;
+    transition: transform 0.2s ease;
+    align-self: stretch;
+    text-align: center;
+    
+  }
+  .grid-container > div:hover{
+    transform: scale(1.2);
+  }
+
+
+
 
 /*Calculator*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
