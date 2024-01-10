@@ -26,6 +26,7 @@ header{
     width: 5vw;
     border-style: solid;
     transition: transform 0.2s ease;
+    border-color: rgb(30, 51, 51);
     
     
 }
