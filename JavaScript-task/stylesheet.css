@@ -1,0 +1,55 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu1{ grid-area: numbo;}
+.menu2{ grid-area: log_in;}
+.menu3{ grid-area: sign_in;}
+
+.grid_menu{
+    display: grid;
+    grid-template-areas: 
+    'numbo numbo numbo log_in sign_in';
+    align-content: center;
+    background-color: white;
+    color: #a53bfc;
+}
+.menu1{
+    font-size: 3vw;
+}
+.menu2{
+    font-size: 2vw;
+}
+.menu3{
+    font-size: 2vw;
+}
+main{
+    background-color: #8a17e9;
+    text-align: center;
+    border-style: solid;
+    border-color: #5d109c;
+}
+.new{
+    color: white;
+    font-size: 2vw;
+}
+input{
+    font-size: 1vw;
+}
+button{
+    font-size: 1vw;
+    background-color: white;
+    color: darkslategray;
+
+}
+
+.threads{
+   
+    background-color: white;
+    color: #b962ff;
+}
+#outputs{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
