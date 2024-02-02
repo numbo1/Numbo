@@ -15,13 +15,13 @@ html{
     color: #a53bfc;
 }
 .menu1{
-    font-size: 3vw;
+    font-size: 5rem;
 }
 .menu2{
-    font-size: 2vw;
+    font-size: 3.5rem;
 }
 .menu3{
-    font-size: 2vw;
+    font-size: 3.5rem;
 }
 main{
     background-color: #8a17e9;
@@ -31,13 +31,13 @@ main{
 }
 .new{
     color: white;
-    font-size: 2vw;
+    font-size: 3.5rem;
 }
 input{
-    font-size: 1vw;
+    font-size: 2rem;
 }
 button{
-    font-size: 1vw;
+    font-size: 2rem;
     background-color: white;
     color: darkslategray;
 
@@ -51,5 +51,5 @@ button{
 #outputs{
     display: flex;
     justify-content: flex-start;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
