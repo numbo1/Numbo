@@ -2,13 +2,10 @@
 html{
     font-size: 62.5%;
     font-family: "Press Start 2P", system-ui;
+    margin: 0;
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
     border: none;
   }
   
@@ -21,7 +18,9 @@ html{
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
+    top: 16rem;
+    left: 0;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -52,21 +51,39 @@ html{
     align-items: center;
     transition: transform 0.2s ease;
 }
+.logo { grid-area: logo;}
+.name { grid-area: name;}
+.my_social_media {grid-area: social;}
+#yt {grid-area: yt;
+  }
+#tok {grid-area: tok;
+  }
+#git {grid-area: git;
+  }
+#insta {grid-area: insta;
+  }
 header{
-    display: flex;
-    justify-content: left;
+    display: grid;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    font-size: 2vw;
-    padding: 0.5vw;
-    gap: 1.5vw;
-    min-height: 3em;
+    grid-template-areas:
+        'logo  name name name social';
+    font-size: 3vw;
+    margin: 0;
 
 }
 .logo{
-    width: 5vw;
-    border-style: solid;
+    width: 6vw;
+   
     
     
 }
+
+.my_social_media{
+  width: 3vw;
+  justify-self: end;
+}
+.name{
+  justify-self: center;
+}
+
   
