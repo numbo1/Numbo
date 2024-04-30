@@ -67,23 +67,39 @@ header{
     width: 100%;
     grid-template-areas:
         'logo  name name name social';
-    font-size: 3vw;
+    font-size: 8rem;
     margin: 0;
 
 }
 .logo{
-    width: 6vw;
+    width: 15rem;
+    padding: 0;
+    margin: 0;
    
     
     
 }
 
 .my_social_media{
-  width: 3vw;
+  width: 10rem;
   justify-self: end;
 }
 .name{
   justify-self: center;
 }
 
-  
+/* main */
+
+.box{
+  background-color: gray;
+  text-align: center;
+  margin: 1rem 20% 1rem 20%;
+  padding: 1rem;
+}
+.hello{
+  font-size: 3rem;
+}
+
+p{
+  font-size: 2rem;
+}
