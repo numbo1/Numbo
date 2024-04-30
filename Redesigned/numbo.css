@@ -7,6 +7,8 @@ html{
 /* Dropdown Button */
 .dropbtn {
     border: none;
+    padding: 0;
+    background-color: black;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -21,36 +23,35 @@ html{
     position: fixed;
     top: 16rem;
     left: 0;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: #18F071;
+    min-width: 5rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   /* Links inside the dropdown */
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    border-style: solid;
+    border-color: black;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    background-color: #439B67;
+  }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color:   ;}
 
-.menu{
-    padding: 0.2em;
-    color:  maroon;
-    text-decoration: none;
-    align-items: center;
-    transition: transform 0.2s ease;
+body{
+  margin: 0;
 }
+
 .logo { grid-area: logo;}
 .name { grid-area: name;}
 .my_social_media {grid-area: social;}
@@ -69,37 +70,60 @@ header{
         'logo  name name name social';
     font-size: 8rem;
     margin: 0;
+    padding: 0.5rem;
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
 }
 .logo{
     width: 15rem;
     padding: 0;
     margin: 0;
-   
-    
-    
+    transition: transform 0.2s ease; 
+}
+.logo:hover{
+  transform: scale(1.2);
+
 }
 
 .my_social_media{
   width: 10rem;
-  justify-self: end;
+  margin: 5rem 1rem 0 1rem;
+  transition: transform 0.2s ease;
+}
+.my_social_media:hover{
+  transform: scale(1.2);
+
 }
 .name{
   justify-self: center;
+  align-self: center;
+  color: white;
 }
 
-/* main */
+/* main menu*/
 
 .box{
-  background-color: gray;
+  background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
   text-align: center;
   margin: 1rem 20% 1rem 20%;
   padding: 1rem;
+  color: #18F071;
 }
 .hello{
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #F41606;
 }
 
 p{
-  font-size: 2rem;
+  font-size: 3rem;
+}
+.box2{
+  text-align: center;
+  margin: 0 30% 5rem 30%;
+  padding: 1rem;
+  background-color: white;
+}
+body{
+  background-color: #533F5C;
 }
