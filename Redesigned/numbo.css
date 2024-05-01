@@ -78,7 +78,9 @@ header{
     width: 15rem;
     padding: 0;
     margin: 0;
-    transition: transform 0.2s ease; 
+    transition: transform 0.2s ease;
+    border-style: solid;
+    border-color: white; 
 }
 .logo:hover{
   transform: scale(1.2);

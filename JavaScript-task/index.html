@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Forum</title>
         <link rel="stylesheet" href="stylesheet.css">
-        <script src="forumtest.js"></script>
+        <script src="forum.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -28,17 +31,16 @@
                 <div class="new">New thread</div>
                 <input type="text" id="person" placeholder="Name">
                 <input type="text" id="text" placeholder="What's your opinion?">
-                <button id="button" onclick="post()">Post</button>
+                <button id="button" onclick="upload()">Post</button>
             </div>
+        </main>
+        <footer>
             <div class="threads">
                 <h1>Threads:</h1>
                 <div id="arr">
                     
                 </div>
             </div>
-        </main>
-        <footer>
-
         </footer>
     </body>
     </html>

@@ -1,5 +1,12 @@
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+}
+body{
+    margin: 0;
+        background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
 }
 
 .menu1{ grid-area: numbo;}
@@ -11,45 +18,69 @@ html{
     grid-template-areas: 
     'numbo numbo numbo log_in sign_in';
     align-content: center;
-    background-color: white;
-    color: #a53bfc;
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+    color: white;
 }
 .menu1{
-    font-size: 5rem;
+    font-size: 8rem;
+    padding: 1rem;
 }
 .menu2{
-    font-size: 3.5rem;
+    font-size: 5rem;
+    align-self: center;
+    color: #18F071;
+
 }
 .menu3{
-    font-size: 3.5rem;
+    font-size: 5rem;
+    align-self: center;
+    color: #F41606;
 }
 main{
-    background-color: #8a17e9;
     text-align: center;
-    border-style: solid;
-    border-color: #5d109c;
 }
 .new{
     color: white;
     font-size: 3.5rem;
 }
 input{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 button{
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: white;
-    color: darkslategray;
 
 }
 
 .threads{
-   
+    color: #5d109c;
+    font-size: 2rem;
+    margin: 2rem 20% 0 20%;
+    padding: 1rem;
     background-color: white;
-    color: #b962ff;
 }
 #outputs{
     display: flex;
     justify-content: flex-start;
     font-size: 2rem;
+    
+
+}
+main{
+    background-color: white;
+    padding: 1rem;
+}
+.input-grid{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+footer{
+    text-align: center;
+}
+#arr{
+    padding: 1rem;
+    margin: 1rem;
 }

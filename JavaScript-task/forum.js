@@ -1,13 +1,15 @@
- f = []
+ var arr = []
 
-function upload(f) {
-    text = document.getElementById("text")
-    person = document.getElementById("person")
-    txt = (text.value)
-    nm = (person.value)
-    document.getElementById("outputs").innerHTML = nm + ": " + txt
-    console.log(outputs)
-    
-    
+function upload() {
+    var txt = document.getElementById("text").value;
+    var nm = document.getElementById("person").value;
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var text = nm + " " + hours + ":" + minutes + ": " + txt;
+    arr.push(text);
+    document.getElementById("arr").innerHTML = arr.join("<br>");
+    console.log(arr);
 }
+    
 
