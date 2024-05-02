@@ -22,17 +22,17 @@ body{
     color: white;
 }
 .menu1{
-    font-size: 8rem;
+    font-size: 4vw;
     padding: 1rem;
 }
 .menu2{
-    font-size: 5rem;
+    font-size: 2vw;
     align-self: center;
     color: #18F071;
 
 }
 .menu3{
-    font-size: 5rem;
+    font-size: 2vw;
     align-self: center;
     color: #F41606;
 }
@@ -44,17 +44,17 @@ main{
     font-size: 3.5rem;
 }
 input{
-    font-size: 3rem;
+    font-size: 2vw;
 }
 button{
-    font-size: 3rem;
+    font-size: 2vw;
     background-color: white;
 
 }
 
 .threads{
     color: #5d109c;
-    font-size: 2rem;
+    font-size: 1vw;
     margin: 2rem 20% 0 20%;
     padding: 1rem;
     background-color: white;
