@@ -55,7 +55,7 @@ button{
 .threads{
     color: #5d109c;
     font-size: 1vw;
-    margin: 2rem 20% 0 20%;
+    margin: 2rem 10% 0 10%;
     padding: 1rem;
     background-color: white;
 }
@@ -74,7 +74,8 @@ main{
     display: flex;
     padding: 1rem;
     align-content: center;
-    font-size: 2rem;
+    justify-content: center;
+    font-size: 1vw;
 }
 footer{
     text-align: center;
