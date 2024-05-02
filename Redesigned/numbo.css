@@ -68,14 +68,14 @@ header{
     width: 100%;
     grid-template-areas:
         'logo  name name name social';
-    font-size: 8rem;
+    font-size: 5vw;
     margin: 0;
     padding: 0.5rem;
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
 }
 .logo{
-    width: 15rem;
+    width: 10vw;
     padding: 0;
     margin: 0;
     transition: transform 0.2s ease;
