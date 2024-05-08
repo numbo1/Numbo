@@ -1,4 +1,4 @@
- var arr = []
+var arr = []
 
 function upload() {
     var txt = document.getElementById("text").value;
@@ -7,7 +7,7 @@ function upload() {
     var hours = now.getHours();
     var minutes = now.getMinutes();
     var text = nm + " " + hours + ":" + minutes + ": " + txt;
-    arr.push(text);
+    arr.unshift(text);
     document.getElementById("arr").innerHTML = arr.join("<br>");
     console.log(arr);
 }
