@@ -50,6 +50,8 @@ html{
 
 body{
   margin: 0;
+  border-style: solid;
+
 }
 
 .logo { grid-area: logo;}
@@ -68,14 +70,16 @@ header{
     width: 100%;
     grid-template-areas:
         'logo  name name name social';
-    font-size: 3vw;
+    font-size: 2vw;
     margin: 0;
     padding: 0.5rem;
+    border-style: solid;
+    border-color: white;
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
 }
 .logo{
-    width: 7vw;
+    width: 5vw;
     padding: 0;
     margin: 0;
     transition: transform 0.2s ease;
@@ -88,7 +92,7 @@ header{
 } */
 
 .my_social_media{
-  width: 7rem;
+  width: 5rem;
   margin: 5rem 1rem 0 1rem;
   transition: transform 0.2s ease;
 }
@@ -105,16 +109,16 @@ header{
 /* main menu*/
 
 .box{
-  background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
   text-align: center;
-  margin: 1rem 20% 1rem 20%;
+  margin: 10% 20% 20% 20%;
   padding: 1rem;
   color: #18F071;
 }
 .hello{
   font-size: 3rem;
   color: #F41606;
+  text-align: center;
 }
 
 p{
@@ -128,5 +132,4 @@ p{
 }
 body{
   /* background-color: #533F5C; */
-  background-color: rgb(163, 163, 163);
-}
+background-color: black;}
