@@ -1,43 +1,49 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Home</title>
-            <link href="/stylesheet.css" rel="stylesheet" type="text/css">
-            <link rel="icon" href="Bilder/logo_numbo_modified.png">
-        </head>
-        <body>
-            <header>
-                <img src="/Bilder/logo_numbo_modified.png" alt="logo"  id="logo">
-                <a href="/index.html" class="menu">Home</a>
-                <a href="/Favourites/Favourites.html" class="menu">Favourites</a>
-                <a href="/Hobby/Hobby.html" class="menu">Hobby</a>
-                <a href="/Calculator/Calculator.html" class="menu">Calculator</a>
-                <a href="/JavaScript-task/index.html" class="menu">Forum</a>
-                <a href="/Source_references.html" class="menu">Source references</a>
-            </header>
-            
-            <main class="main_menu">
-                <div id="about">
-                    <h1>About this website</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main menu</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- <img src="/Bilder/logo_numbo_modified.png" alt="logo"  id="logo"> -->
+        
+        <div class="name">Codernumbo.com</div>
+    </header>
+        <div class="options">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">About me</button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="start.html" class="dropbtn">Home</a>
+        <a href="/JavaScript-task/index.html" class="dropbtn">Forum</a>
+        <a href="/minigames/index.html" class="dropbtn">Games</a>
+    </div>
+    <main>
+        <div class="box">
+            <div class="hello">Hello I am Numbo</div>
+            <p>I program for fun</p>
+            <div class="box2">
+                <div class="hello">My social media</div>
+                <div>
+                    <a href="https://www.instagram.com/numbo_official/" target="_blank"><img src="/Bilder/instagram_logo.png" alt="Instagram" class="my_social_media" id="insta"></a>
+                    <a href="https://www.tiktok.com/@numbo_official?_t=8hwB40sr6O0&_r=1" target="_blank"><img src="/Bilder/tik-tok-logo-33082.png" alt="TikTok" class="my_social_media" id="tok"></a>
+                    <a href="https://www.youtube.com/channel/UCpt__DWFAAtY3PWM4lC_69w" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="youtube" class="my_social_media" id="yt"></a>
+                    <a href="https://github.com/numbo1" target="_blank"><img src="/Bilder/github-mark.png" alt="github" class="my_social_media" id="git"></a>
                 </div>
-                
-                <div id="introduction">
-                    <p>
-                        Hello, I am Ellen, a 16 year old programmer. This website is a school project, it contains my favourite movies, series, video games, books, music, my
-                        hobbies, a calculator if your own calculator fails, and a few sources to minimize copyrighting. Enjoy:)
-                    </p>
-                </div>
-                
-            </main>
-            <footer>
-                <div class="social">
-                    <a href="https://www.instagram.com/numbo_official/" target="_blank"><img src="/Bilder/instagram_logo.png" alt="Instagram" class="my_social_media"></a>
-                    <a href="https://www.tiktok.com/@numbo_official?_t=8hwB40sr6O0&_r=1" target="_blank"><img src="/Bilder/tik-tok-logo-33082.png" alt="TikTok" class="my_social_media"></a>
-                    <a href="https://www.youtube.com/channel/UCpt__DWFAAtY3PWM4lC_69w" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="youtube" class="my_social_media"></a>
-                    <a href="https://github.com/numbo1" target="_blank"><img src="/Bilder/github-mark.png" alt="github" class="my_social_media"></a>
-                </div>
-            </footer>
-        </body>
-    </html>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
