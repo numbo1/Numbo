@@ -21,29 +21,33 @@ main{
 
 }
 
-.logo{ grid-area: logo;}
+/* .logo{ grid-area: logo;}
 .minigames{ grid-area: minigames;}
-.sources{ grid-area: sources;}
+.sources{ grid-area: sources;} */
 
 .grid_menu{
-    display: grid;
+    /* display: grid;
     grid-template-areas: 
     'logo logo'
-    'minigames sources';
+    'minigames sources'; */
     background-color: white;
     border-style: solid;
 }
+.menu_flex{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
 .logo{
-    justify-self: center;
     color: #ffffff;
-    font-size: 5rem;
+    text-align: center;
+    font-size: 25px;
+    padding: 0.5rem;
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-    padding: 0 100% 0 100%;
     
 }
 .minigames{
-    justify-self: center;
-    font-size: 4rem;
+    font-size: 20px;
     transition: transform 0.2s ease;
     padding: 0.5rem;
     
@@ -54,7 +58,7 @@ main{
 }
 .sources{
     justify-self: center;
-    font-size: 4rem;
+    font-size: 20px;
     transition: transform 0.2s ease;
     padding: 0.5rem;
 
@@ -78,7 +82,7 @@ a{
 .text{
     color: white;
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 20px;
     padding: 1rem;
 }
 .source{
@@ -99,7 +103,7 @@ a{
 }
 
 .flexbox_games{
-    padding: 1rem;
+    padding: 0.5rem;
     display: flex;
     background-color: white;
     flex-wrap: wrap;
@@ -109,12 +113,16 @@ a{
 
 .spacefly{
     transition: transform 0.2s ease;
+    max-width: 200px;
+    min-width: 16px;
 }
 .spacefly:hover{
     transform: scale(1.03);
 }
 
 .pizza{
+    max-width: 200px;
+    min-width: 16px;
     transition: transform 0.2s ease;
 }
 .pizza:hover{
