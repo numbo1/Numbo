@@ -79,10 +79,9 @@ body{
   }
 header{
     display: grid;
-    width: 100%;
     grid-template-areas:
         'logo name';
-    font-size: 2vw;
+    font-size: 25px;
     margin: 0;
     padding: 0.5rem;
     border-style: solid;
@@ -127,7 +126,7 @@ header{
   color: #18F071;
 }
 .hello{
-  font-size: 3rem;
+  font-size: 20px;
   color: #F41606;
   text-align: center;
 }
