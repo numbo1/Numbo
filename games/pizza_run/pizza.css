@@ -1,0 +1,10 @@
+canvas{
+    background-image: url(/minigames/pizza_run/photos/nyruter.png);
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}

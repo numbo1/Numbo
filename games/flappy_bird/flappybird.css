@@ -1,0 +1,50 @@
+.back_button{
+    width: 8rem;
+    transition: transform 0.2s ease;
+}
+
+.back_button:hover{
+transform: scale(1.1);
+}
+
+.bboard{ grid-area: game;}
+.back{grid-area: button;}
+
+body{
+    /* display: grid;
+    grid-template-areas: 'button game game game game game game game game game game game'
+                        ' button game game game game game game game game game game game'
+                        'button game game game game game game game game game game game'
+                        'button game game game game game game game game game game game'; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(https://wallpapers.com/images/hd/moon-surface-pictures-ccfcbzr8fmypeyvz.jpg); */
+    /* background-image: url(/flappy_bird/photos/space.jpg); */
+    /* background-size: cover; */
+    /* text-align: center;
+    align-content: center; */
+    /* margin: 1rem; */
+
+    background-color: black;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#board{
+    background-image: url(/flappy_bird/photos/space.jpg);
+
+}
+
+canvas { 
+    background-color: #ffff00;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+ }

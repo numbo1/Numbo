@@ -1,0 +1,123 @@
+/*Main website*/
+
+html{
+    font-size: 62.5%;
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+body{
+    margin: 0;
+}
+
+  
+
+main{
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
+}
+.sour{
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
+}
+
+.logo{ grid-area: logo;}
+.minigames{ grid-area: minigames;}
+.sources{ grid-area: sources;}
+
+.grid_menu{
+    display: grid;
+    grid-template-areas: 
+    'logo logo'
+    'minigames sources';
+    background-color: white;
+    border-style: solid;
+}
+.logo{
+    justify-self: center;
+    color: #ffffff;
+    font-size: 5rem;
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+    padding: 0 100% 0 100%;
+    
+}
+.minigames{
+    justify-self: center;
+    font-size: 4rem;
+    transition: transform 0.2s ease;
+    padding: 0.5rem;
+    
+}
+.minigames:hover{
+    transform: scale(1.2);
+
+}
+.sources{
+    justify-self: center;
+    font-size: 4rem;
+    transition: transform 0.2s ease;
+    padding: 0.5rem;
+
+}
+.sources:hover{
+    transform: scale(1.2);
+
+}
+.menu_m{
+    color: #F41606;
+    
+}
+.menu_s{
+    color: #439B67;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.source{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.link_sources{
+    transition: transform 0.2s ease;
+    text-align: center;
+    font-size: 2rem;
+
+}
+.link_sources:hover{
+    transform: scale(1.2);
+
+}
+
+.flexbox_games{
+    padding: 1rem;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.spacefly{
+    transition: transform 0.2s ease;
+}
+.spacefly:hover{
+    transform: scale(1.03);
+}
+
+.pizza{
+    transition: transform 0.2s ease;
+}
+.pizza:hover{
+    transform: scale(1.03);
+}
+
