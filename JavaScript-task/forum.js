@@ -1,4 +1,4 @@
-var arr = []
+var arr = [];
 
 function upload() {
     var txt = document.getElementById("text").value;
