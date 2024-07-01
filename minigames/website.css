@@ -37,6 +37,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 5rem;
+    background-color: white;
 }
 .logo{
     color: #ffffff;
@@ -94,7 +95,7 @@ a{
 .link_sources{
     transition: transform 0.2s ease;
     text-align: center;
-    font-size: 2rem;
+    font-size: 20px;
 
 }
 .link_sources:hover{
