@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main menu</title>
     <link rel="stylesheet" href="numbo.css">
+    <script src="start.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -12,18 +13,22 @@
 <body>
     <header>
         <!-- <img src="/Bilder/logo_numbo_modified.png" alt="logo"  id="logo"> -->
-        <div class="dropdown">
-            <button class="dropbtn"><img src="/Bilder/logo_5.png" class="logo"></button>
-            <div class="dropdown-content" class="menu">
-                <a href="/index.html" class="menu">Home</a>
-              <a href="/minigames/index.html" id="white">Games</a>
-              <a href="/JavaScript-task/index.html" id="red">Forum</a>
-              <a href="#" id="blue">blue</a>
-              <a href="#" id="green">green</a>
-            </div>
-          </div>
-          <div class="name">Codernumbo.com</div>
+        
+        <div class="name">Codernumbo.com</div>
     </header>
+        <div class="options">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">About me</button>
+                <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <a href="start.html" class="dropbtn">Home</a>
+        <a href="/JavaScript-task/index.html" class="dropbtn">Forum</a>
+        <a href="/minigames/index.html" class="dropbtn">Games</a>
+    </div>
     <main>
         <div class="box">
             <div class="hello">Hello I am Numbo</div>
