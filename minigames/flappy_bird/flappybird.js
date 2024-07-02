@@ -45,10 +45,10 @@ let score = 0;
 function getRandomImage() {
     var randomImage = new Array();
 
-    randomImage[0] = "/flappy_bird/photos/sattelite_pixel.png";
-    randomImage[1] = "/flappy_bird/photos/sattelite_thing.png";
-    randomImage[2] = "/flappy_bird/photos/sat_piece.png"
-    randomImage[3] = "/flappy_bird/photos/sat_thing2.png"
+    randomImage[0] = "/minigames/flappy_bird/photos/sattelite_pixel.png";
+    randomImage[1] = "/minigames/flappy_bird/photos/sattelite_thing.png";
+    randomImage[2] = "/minigames/flappy_bird/photos/sat_piece.png"
+    randomImage[3] = "/minigames/flappy_bird/photos/sat_thing2.png"
 
     var number = Math.floor(Math.random()*randomImage.length);
     return randomImage[number];
@@ -63,7 +63,7 @@ window.onload = function(){
 
     //load the images
     austronautImg = new Image();
-    austronautImg.src = "/flappy_bird/photos/austronaut_fixed.png";
+    austronautImg.src = "/minigames/flappy_bird/photos/austronaut_fixed.png";
     austronautImg.onload = function(){
         context.drawImage(austronautImg, austronaut.x, austronaut.y, austronaut.width, austronaut.height);
 

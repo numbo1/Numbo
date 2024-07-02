@@ -33,7 +33,7 @@ body{
 }
 
 #board{
-    background-image: url(/flappy_bird/photos/space.jpg);
+    background-image: url(/minigames/flappy_bird/photos/space.jpg);
 
 }
 
@@ -47,4 +47,4 @@ canvas {
     right: 0;
     height: 100%;
     width: 100%;
- }
+}
