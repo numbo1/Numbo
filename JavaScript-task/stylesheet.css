@@ -82,7 +82,7 @@ main{
     display: flex;
     padding: 1rem;
     align-content: center;
-    justify-content: center;
+    flex-wrap: wrap;
     font-size: 16px;
 }
 footer{
