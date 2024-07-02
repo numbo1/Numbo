@@ -18,13 +18,13 @@ body{
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
+    justify-content: center;
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
     color: white;
 }
 .menu1{
     font-size: 25px;
     padding: 1rem;
-    justify-self: flex-start;
 }
 .menu2{
     font-size: 25px;
