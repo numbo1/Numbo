@@ -14,29 +14,30 @@ body{
 .menu3{ grid-area: sign_in;}
 
 .grid_menu{
-    display: grid;
     display: flex;
     flex-wrap: wrap;
-    grid-template-areas: 
-    'numbo numbo numbo log_in sign_in';
     align-content: center;
+    width: 100%;
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
     color: white;
 }
 .menu1{
     font-size: 25px;
     padding: 1rem;
+    justify-self: flex-start;
 }
 .menu2{
     font-size: 25px;
     align-self: center;
     color: #18F071;
+    justify-self: flex-end;
 
 }
 .menu3{
     font-size: 25px;
     align-self: center;
     color: #F41606;
+    justify-self: flex-end;
 }
 main{
     text-align: center;
@@ -87,6 +88,7 @@ main{
     align-content: center;
     flex-wrap: wrap;
     font-size: 16px;
+    justify-content: center;
 }
 footer{
     text-align: center;
