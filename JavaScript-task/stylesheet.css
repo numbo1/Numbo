@@ -46,6 +46,15 @@ main{
     color: white;
     font-size: 16px;
 }
+
+#person{
+    margin-top: 1rem;
+}
+
+#text{
+    margin-top: 1rem;
+}
+
 input{
     font-size: 16px;
     padding: 0.5rem;
@@ -60,6 +69,7 @@ button{
     border-style: solid;
     border-color: black;
     color: black;
+    margin-top: 1rem;
     font-family: "Press Start 2P", system-ui;
 }
 
@@ -89,7 +99,6 @@ main{
     flex-wrap: wrap;
     font-size: 16px;
     justify-content: center;
-    margin-top: 1rem;
 }
 footer{
     text-align: center;
