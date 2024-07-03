@@ -1,0 +1,109 @@
+/* All sites */
+html{
+    font-size: 62.5%;
+    font-family: "Press Start 2P", system-ui;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    border-style: solid;
+    background-color: black;
+}
+
+header{
+    font-size: 25px;
+    margin: 0;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: white;
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
+}
+.name{
+    text-align: center;
+    color: white;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: darkgray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: solid;
+    border-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: rgb(136, 136, 136);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: gray;
+    gap: 1rem;
+}
+
+.hello{
+    font-size: 20px;
+    color: #F41606;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.flex_hobby{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin: 1rem 20% 1rem 20%;
+}
+
+.hobby_link{
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    background-color: darkgray;
+    padding: 1rem;
+}
+.hobby_link:hover{
+    background-color: rgb(136, 136, 136);
+}

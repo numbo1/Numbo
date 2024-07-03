@@ -66,8 +66,6 @@ body{
 
 }
 
-.logo { grid-area: logo;}
-.name { grid-area: name;}
 .my_social_media {grid-area: social;}
 #yt {grid-area: yt;
   }
@@ -78,9 +76,6 @@ body{
 #insta {grid-area: insta;
   }
 header{
-    display: grid;
-    grid-template-areas:
-        'logo name';
     font-size: 25px;
     margin: 0;
     padding: 0.5rem;
@@ -89,18 +84,7 @@ header{
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
 }
-.logo{
-    width: 5vw;
-    padding: 0;
-    margin: 0;
-    transition: transform 0.2s ease;
-    border-style: solid;
-    border-color: white; 
-}
-/* .logo:hover{
-  transform: scale(1.2);
 
-} */
 
 .my_social_media{
   width: 5rem;
