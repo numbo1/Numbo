@@ -93,6 +93,7 @@ header{
     flex-wrap: wrap;
     color: white;
     margin: 1rem 20% 1rem 20%;
+    justify-content: center;
 }
 
 .hobby_link{
@@ -102,7 +103,7 @@ header{
     border-color: white;
     font-size: 20px;
     background-color: darkgray;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 .hobby_link:hover{
     background-color: rgb(136, 136, 136);

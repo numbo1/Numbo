@@ -96,7 +96,7 @@ header{
 
 }
 .name{
-  align-self: center;
+  text-align: center;
   color: white;
 }
 
