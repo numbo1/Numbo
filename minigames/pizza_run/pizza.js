@@ -418,7 +418,10 @@ function update() {
         velocityYP *= 1.5;
         pizza2.x = pizzaX();
         pizza2.y = pizzaY();
-    }
+    } else if (detectCollision(freddyP, pizza3)) {
+        pizza3.x = pizzaX();
+        pizza3.y = pizzaY();
+    };
 
     // Draw score
     context.font = "70px Arial";
