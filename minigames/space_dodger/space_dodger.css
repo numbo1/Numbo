@@ -1,0 +1,20 @@
+canvas { 
+    background-color: #ffff00;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#board{
+    background-image: url(/minigames/space_dodger/photos/space_stars.jpg);
+    background-size: cover;
+}

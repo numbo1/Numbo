@@ -113,7 +113,7 @@ let freddyP = {
 
 
 //Pizzas
-let randomNumber = Math.floor(Math.random() * 100)
+let randomNumber = Math.floor(Math.random() * 100);
 let pizzaArray = ["/minigames/pizza_run/photos/pizza1.png", "/minigames/pizza_run/photos/pizza2.png", "/minigames/pizza_run/photos/pizza3.png"]; 
 var pizzaHeight = 60;
 var pizzaWidth = 60;

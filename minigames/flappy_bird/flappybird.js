@@ -151,6 +151,18 @@ function placeShips(){
         return;
     }
 
+    /*random obstacles, which is optional if you change the width and 
+    height to width : (this function) and the same with height but multiply it by 4.75*/
+    function randomWidth() {
+        randomNumber = Math.floor(Math.random() * 100);
+        if (randomNumber < 50) {
+            randomNumber = 50;
+        } else if (randomNumber > 100) {
+            randomNumber = 100;
+        }
+        return randomNumber;
+    }
+
     let topShipImg = new Image();
     topShipImg.src = getRandomImage();
 
@@ -169,13 +181,12 @@ function placeShips(){
        passed : false
     }
     shipArray.push(topShip);
-
     let bottomShip = {
         img : bottomShipImg,
         x : shipX,
         y : randomShipY + shipHeight + openingSpace,
-        width: shipWidth,
-        height: shipHeight,
+        width : shipWidth,
+        height : shipHeight,
         passed : false
     }
     velocityX -= 0.3;
