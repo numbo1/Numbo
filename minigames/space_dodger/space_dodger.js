@@ -6,8 +6,8 @@ let context;
 
 
 //Ship
-let shipWidth = 500;
-let shipHeight = 500;
+let shipWidth = 300;
+let shipHeight = 300;
 let shipX = 5;
 let shipY = 5;
 let shipImg;
@@ -25,8 +25,8 @@ let holePlacementInterval = setInterval(placeHoles, 5000); // Initial interval
 
 //Black holes
 let holeArray = [];
-let holeWidth = 500;
-let holeHeight = 500;
+let holeWidth = 300;
+let holeHeight = 300;
 let holeX = boardWidth;
 let holeY = boardHeight/2;
 
