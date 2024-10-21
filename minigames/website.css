@@ -8,6 +8,7 @@ html{
 
 body{
     margin: 0;
+    background-color: white;
 }
 
   
@@ -114,6 +115,8 @@ a{
 
 .spacefly{
     transition: transform 0.2s ease;
+    border-style: solid;
+    border-color: white;
     max-width: 200px;
     min-width: 16px;
 }
@@ -125,6 +128,8 @@ a{
     max-width: 200px;
     min-width: 16px;
     transition: transform 0.2s ease;
+    border-style: solid;
+    border-color: white;
 }
 .pizza:hover{
     transform: scale(1.03);

@@ -11,7 +11,7 @@ html{
   padding: 16px;
   font-size: 16px;
   border: solid;
-  border-color: white;
+  border-color: ;
   cursor: pointer;
   text-decoration: none;
   font-family: "Press Start 2P", system-ui;
@@ -56,7 +56,7 @@ html{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  background-color: gray;
+  background-color: white;
   gap: 1rem;
 }
 
