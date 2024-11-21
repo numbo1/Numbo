@@ -15,6 +15,6 @@ canvas {
 }
 
 #board{
-    background-image: url(/minigames/space_dodger/photos/space_stars.jpg);
+    background-image: url(photos/space_stars.jpg);
     background-size: cover;
 }

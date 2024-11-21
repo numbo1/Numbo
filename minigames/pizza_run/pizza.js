@@ -5,7 +5,7 @@ let boardHeight = window.innerHeight;
 let context;
 
 //sound
-let bgMusic = new Audio('/minigames/pizza_run/music/music.mp3');
+let bgMusic = new Audio('music/music.mp3');
 
 //Walls
 
@@ -114,7 +114,7 @@ let freddyP = {
 
 //Pizzas
 let randomNumber = Math.floor(Math.random() * 100);
-let pizzaArray = ["/minigames/pizza_run/photos/pizza1.png", "/minigames/pizza_run/photos/pizza2.png", "/minigames/pizza_run/photos/pizza3.png"]; 
+let pizzaArray = ["photos/pizza1.png", "photos/pizza2.png", "photos/pizza3.png"]; 
 var pizzaHeight = 60;
 var pizzaWidth = 60;
 var pizzaOffset = 150;
@@ -138,7 +138,7 @@ let pizza = {
 }
 
 //Pizza 1
-let pizza1Array = ["/minigames/pizza_run/photos/pizza4.png", "/minigames/pizza_run/photos/pizza5.png", "/minigames/pizza_run/photos/pizza6.png"]
+let pizza1Array = ["photos/pizza4.png", "photos/pizza5.png", "photos/pizza6.png"]
 let pizza1 = {
     x : pizzaX(),
     y : pizzaY(),
@@ -148,7 +148,7 @@ let pizza1 = {
 let pizza1Img;
 
 // Pizza 2
-let pizza2Array = ["/minigames/pizza_run/photos/poison_pizza.png"]
+let pizza2Array = ["photos/poison_pizza.png"]
 let pizza2 = {
     x : pizzaX(),
     y : pizzaY(),
@@ -158,7 +158,7 @@ let pizza2 = {
 let pizza2Img;
 
 //Pizza 3
-let pizza3Array = ["/minigames/pizza_run/photos/pizza4.png", "/minigames/pizza_run/photos/pizza5.png", "/minigames/pizza_run/photos/pizza6.png"]
+let pizza3Array = ["photos/pizza4.png", "photos/pizza5.png", "photos/pizza6.png"]
 let pizza3 = {
     x : pizzaX(),
     y : pizzaY(),
@@ -205,7 +205,7 @@ window.onload = function(){
 
     //left wall
     leftWallImg = new Image();
-    leftWallImg.src = "/minigames/pizza_run/photos/5x1_xxl_wall.png";
+    leftWallImg.src = "photos/5x1_xxl_wall.png";
     leftWallImg.onload = function(){
         context.drawImage(leftWallImg, leftWall.x, leftWall.y, leftWall.width, leftWall.height);
 
@@ -213,7 +213,7 @@ window.onload = function(){
 
     //right wall
     rightWallImg = new Image();
-    rightWallImg.src = "/minigames/pizza_run/photos/5x1_xxl_right_wall.png";
+    rightWallImg.src = "photos/5x1_xxl_right_wall.png";
     rightWallImg.onload = function(){
         context.drawImage(rightWallImg, rightWall.x, rightWall.y, rightWall.width, rightWall.height);
 
@@ -221,7 +221,7 @@ window.onload = function(){
 
     //top wall
     topWallImg = new Image();
-    topWallImg.src = "/minigames/pizza_run/photos/1x10_top.png";
+    topWallImg.src = "photos/1x10_top.png";
     topWallImg.onload = function(){
         context.drawImage(topWallImg, topWall.x, topWall.y, topWall.width, topWall.height);
 
@@ -229,7 +229,7 @@ window.onload = function(){
 
     //bottom wall
     bottomWallImg = new Image();
-    bottomWallImg.src = "/minigames/pizza_run/photos/1x10_bottom.png";
+    bottomWallImg.src = "photos/1x10_bottom.png";
     bottomWallImg.onload = function(){
         context.drawImage(bottomWallImg, bottomWall.x, bottomWall.y, bottomWall.width, bottomWall.height);
 
@@ -237,7 +237,7 @@ window.onload = function(){
 
     //upLeft
     upLeftImg = new Image();
-    upLeftImg.src = "/minigames/pizza_run/photos/1x1_corner.png";
+    upLeftImg.src = "photos/1x1_corner.png";
     upLeftImg.onload = function(){
         context.drawImage(upLeftImg, upLeft.x, upLeft.y, upLeft.width, upLeft.height);
 
@@ -245,7 +245,7 @@ window.onload = function(){
 
     //upRight
     upRightImg = new Image();
-    upRightImg.src = "/minigames/pizza_run/photos/1x1_right_top.png";
+    upRightImg.src = "photos/1x1_right_top.png";
     upRightImg.onload = function(){
         context.drawImage(upRightImg, upRight.x, upRight.y, upRight.width, upRight.height);
 
@@ -253,7 +253,7 @@ window.onload = function(){
 
     //bottomLeft
     bottomLeftImg = new Image();
-    bottomLeftImg.src = "/minigames/pizza_run/photos/1x1_left_bottom.png";
+    bottomLeftImg.src = "photos/1x1_left_bottom.png";
     bottomLeftImg.onload = function(){
         context.drawImage(bottomLeftImg, bottomLeft.x, bottomLeft.y, bottomLeft.width, bottomLeft.height);
 
@@ -261,7 +261,7 @@ window.onload = function(){
 
     //bottomRight
     bottomRightImg = new Image();
-    bottomRightImg.src = "/minigames/pizza_run/photos/1x1_right_bottom.png";
+    bottomRightImg.src = "photos/1x1_right_bottom.png";
     bottomRightImg.onload = function(){
         context.drawImage(bottomRightImg, bottomRight.x, bottomRight.y, bottomRight.width, bottomRight.height);
 
@@ -269,7 +269,7 @@ window.onload = function(){
 
     //Freddy
     freddyImg = new Image();
-    freddyImg.src = "/minigames/pizza_run/photos/freddy.png";
+    freddyImg.src = "photos/freddy.png";
     freddyImg.onload = function(){
         context.drawImage(freddyImg, freddy.x, freddy.y, freddy.width, freddy.height);
 
@@ -277,7 +277,7 @@ window.onload = function(){
 
     //Freddy P
     freddyPImg = new Image();
-    freddyPImg.src = "/minigames/pizza_run/photos/freddyP.png";
+    freddyPImg.src = "photos/freddyP.png";
     freddyPImg.onload = function(){
         context.drawImage(freddyPImg, freddyP.x, freddyP.y, freddyP.width, freddyP.height);
 

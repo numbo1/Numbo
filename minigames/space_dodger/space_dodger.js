@@ -58,7 +58,7 @@ window.onload = function(){
     console.log(ship.x, ship.y);
 
     holeImg = new Image()
-    holeImg.src = "/minigames/space_dodger/photos/hole.png";
+    holeImg.src = "photos/hole.png";
 
 
     requestAnimationFrame(update);
@@ -131,7 +131,7 @@ function placeHoles(){
     }
 
     let holeImg = new Image();
-    holeImg.src = "/minigames/space_dodger/photos/hole.png";
+    holeImg.src = "photos/hole.png";
 
 
     let randomholeY = holeY - holeHeight/4 - Math.random()*(holeHeight/2);
