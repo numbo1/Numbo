@@ -1,52 +1,8 @@
-html{
-    font-size: 62.5%;
-    font-family: "Press Start 2P", system-ui;
-    margin: 0;
-}
-body{
-    margin: 0;
-        background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
-}
-
-.menu1{ grid-area: numbo;}
-.menu2{ grid-area: log_in;}
-.menu3{ grid-area: sign_in;}
-
-.grid_menu{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 100%;
-    justify-content: center;
-    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-    color: white;
-}
-.menu1{
-    font-size: 25px;
+main{
+    background-color: black;
     padding: 1rem;
 }
-.menu2{
-    font-size: 25px;
-    align-self: center;
-    color: #18F071;
-    justify-self: flex-end;
-
-}
-.menu3{
-    font-size: 25px;
-    align-self: center;
-    color: #F41606;
-    justify-self: flex-end;
-}
-main{
-    text-align: center;
-}
-.new{
-    color: white;
-    font-size: 16px;
-}
-
 #person{
     margin-top: 1rem;
 }
@@ -56,31 +12,49 @@ main{
 }
 
 input{
-    font-size: 16px;
+    font-size: 1.5rem;
     padding: 0.5rem;
     border-style: solid;
-    border-color: black;
-    font-family: "Press Start 2P", system-ui;
+    border-color: transparent;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
-button{
+
+input:focus{
+    outline: none;
+    border-color: #646cff;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+.input-grid button{
     font-size: 16px;
     padding: 0.5rem;
-    background-color: white;
+    background-color: rgb(49, 49, 49);
     border-style: solid;
-    border-color: black;
-    color: black;
+    border-color: transparent;
+    color: white;
     margin-top: 1rem;
-    font-family: "Press Start 2P", system-ui;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-grid button:hover{
+    border-color: #646cff;
+    transition: border-color 0.25s;
 }
 
 
 
 .threads{
-    color: #5d109c;
-    font-size: 16px;
+    color: white;
+    font-size: 1.5rem;
     margin: 2rem 10% 0 10%;
     padding: 1rem;
-    background-color: white;
+    border-radius: 1.5rem;
+
 }
 #outputs{
     display: flex;
@@ -88,17 +62,16 @@ button{
     
 
 }
-main{
-    background-color: white;
-    padding: 1rem;
-}
+
 .input-grid{
     display: flex;
     padding: 1rem;
     align-content: center;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 1rem;
+    gap: 0.5rem;
     justify-content: center;
+    background-color: black;
 }
 footer{
     text-align: center;
@@ -106,5 +79,19 @@ footer{
 #arr{
     padding: 1rem;
     margin: 1rem;
-    font-size: 16px;
 }
+
+#thread_header{
+    color: #18F071;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+    will-change: filter;
+    transition: filter 300ms;
+    user-select: none;
+  }
+  #thread_header:hover {
+    filter: drop-shadow(0 0 1em #646cff);
+  }
+
+

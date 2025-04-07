@@ -1,3 +1,6 @@
+//rem calculation
+let rem = parseFloat(getComputedStyle(document.documentElement).fontSize); // typically 16
+
 //board
 let board;
 let boardWidth = window.innerWidth;
@@ -11,23 +14,32 @@ let austronautX = boardWidth/9;
 let austronautY = boardHeight/2
 let austronautImg;
 
-let austronaut = {
-    x : austronautX,
-    y : austronautY,
-    width : austronautWidth,
-    height : austronautHeight
+let austronautWidthRem = 3.75;
+let austronautHeightRem = 9.375;
+let austronautXRem = 10;
+let austronautYRem = 20;
 
+let austronaut = {
+    x: austronautXRem * rem,
+    y: austronautYRem * rem,
+    width: austronautWidthRem * rem,
+    height: austronautHeightRem * rem
 }
 //Interval
 let intervalNumber = 2000;
 let shipPlacementInterval = setInterval(placeShips, 2000); // Initial interval
 
 //Spaceships
+let shipWidthRem = 5;
+let shipHeightRem = 23.75;
+let shipXRem = boardWidth;
+let shipYRem = 0;
+
 let shipArray = [];
-let shipWidth = 80;
-let shipHeight = 380;
-let shipX = boardWidth;
-let shipY = 0;
+let shipWidth = shipWidthRem * rem;
+let shipHeight = shipHeightRem * rem;
+let shipX = shipXRem;
+let shipY = shipYRem;
 
 let topShipImg;
 let bottomShipImg; 
@@ -134,12 +146,12 @@ function update() {
 
     if (gameOver) {
         context.clearRect(0, 0, board.width, board.height);
-        context.font = "100px Arial"
+        context.font = "7rem Arial"
         context.fillStyle = "red";
         context.textAlign = "center";
         context.fillText("GAME OVER", boardWidth/2, 300);
         context.fillStyle = "white";
-        context.font = "80px sans-serif"
+        context.font = "7rem sans-serif"
         context.fillText("Score: " + score, boardWidth/2, 400);
         context.fillStyle = "#18F071";
         context.fillText("Press R to restart",boardWidth/2, 500);

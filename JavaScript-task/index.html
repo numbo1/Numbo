@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Forum</title>
         <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="../header.css">
         <script src="forum.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,31 +13,32 @@
     </head>
     <body>
         <header>
-            <div class="grid_menu">
-                <div class="menu1">
-                    numbo.forum
-                </div>
-                <!-- <div class="menu2">
-                    Log in
-                </div>
-                <div class="menu3">
-                    Sign in
-                </div> -->
-            </div>
-
+            <div class="name">Codernumbo.com</div>
         </header>
+            <div class="options">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">About me</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="../hobbies.html">Hobbies</a>
+                        <a href="#">My work</a>
+                        <a href="#"> My social media</a>
+                    </div>
+                </div>
+                <a href="../index.html" class="dropbtn">Home</a>
+                <a href="../JavaScript-task/index.html" class="dropbtn">Forum</a>
+                <a href="../minigames/index.html" class="dropbtn">Games</a>
+            </div>
         <main>
             
-            <div class="input-grid">
-                <input type="text" id="person" placeholder="Name">
-                <input type="text" id="text" placeholder="What's your opinion?">
-                <button id="button" onclick="upload()">Post</button>
-            </div>
-            <div>This is a work in progress!</div>
+            <form class="input-grid" id="form">
+                <input type="text" id="person" placeholder="Name" required>
+                <input type="text" id="text" placeholder="What's your opinion?" required>
+                <button id="button" type="submit">Post</button>
+            </form>
         </main>
         <footer>
             <div class="threads">
-                <div>Threads:</div>
+                <div id="thread_header">Threads:</div>
                 <div id="arr">
                     
                 </div>

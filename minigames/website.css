@@ -5,7 +5,13 @@
     text-align: center;
     font-size: 2.5rem;
     padding: 2rem;
-}
+    will-change: filter;
+    transition: filter 300ms;
+    user-select: none;
+  }
+  .text:hover {
+    filter: drop-shadow(0 0 1em #646cff);
+  }
 .source{
     color: white;
     display: flex;

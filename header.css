@@ -17,6 +17,15 @@ header{
     background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
 
 }
+.name {
+  will-change: filter;
+  transition: filter 300ms;
+  user-select: none;
+}
+.name:hover {
+  filter: drop-shadow(0 0 1em #646cff);
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: rgb(49, 49, 49);

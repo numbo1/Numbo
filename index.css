@@ -1,13 +1,5 @@
 
-.my_social_media {grid-area: social;}
-#yt {grid-area: yt;
-  }
-#tok {grid-area: tok;
-  }
-#git {grid-area: git;
-  }
-#insta {grid-area: insta;
-  }
+
 header{
     font-size: 25px;
     margin: 0;
@@ -17,16 +9,6 @@ header{
 
 }
 
-
-.my_social_media{
-  width: 5rem;
-  margin: 5rem 1rem 0 1rem;
-  transition: transform 0.2s ease;
-}
-.my_social_media:hover{
-  transform: scale(1.2);
-
-}
 
 /* main menu*/
 

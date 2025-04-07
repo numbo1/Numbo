@@ -11,5 +11,11 @@ function upload() {
     document.getElementById("arr").innerHTML = arr.join("<br>");
     console.log(arr);
 }
+
+document.getElementById("form").addEventListener("submit", function (event) {
+    
+    upload(); // Call the upload function to handle the form submission
+    document.getElementById("text").value = ""; // Clear the text input
+});
     
 
