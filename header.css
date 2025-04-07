@@ -1,0 +1,93 @@
+/* All sites */
+html{
+    font-size: 62.5%;
+    /* font-family: "Press Start 2P", system-ui; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    font-size: 25px;
+    margin: 0;
+    padding: 1rem;
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
+
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: rgb(49, 49, 49);
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  transition: border-color 0.25s;
+
+  /* font-family: "Press Start 2P", system-ui; */
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  border-color: #646cff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 0.1rem;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border-color: rgb(49, 49, 49);
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 1.5rem;
+  border-width: 0.2rem;
+  display: block;
+  border-style: solid;
+  transition: border-color 0.25s;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  border-color: #646cff;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+  
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border-style: solid;
+  border-color: #646cff;
+}

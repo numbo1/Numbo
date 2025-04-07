@@ -1,91 +1,10 @@
 /*Main website*/
 
-html{
-    font-size: 62.5%;
-    font-family: "Press Start 2P", system-ui;
-}
-
-
-body{
-    margin: 0;
-    background-color: white;
-}
-
-  
-
-main{
-    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-
-}
-.sour{
-    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-
-}
-
-/* .logo{ grid-area: logo;}
-.minigames{ grid-area: minigames;}
-.sources{ grid-area: sources;} */
-
-.grid_menu{
-    /* display: grid;
-    grid-template-areas: 
-    'logo logo'
-    'minigames sources'; */
-    background-color: white;
-    border-style: solid;
-}
-.menu_flex{
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    background-color: white;
-}
-.logo{
-    color: #ffffff;
-    text-align: center;
-    font-size: 25px;
-    padding: 0.5rem;
-    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-    
-}
-.minigames{
-    font-size: 20px;
-    transition: transform 0.2s ease;
-    padding: 0.5rem;
-    
-}
-.minigames:hover{
-    transform: scale(1.2);
-
-}
-.sources{
-    justify-self: center;
-    font-size: 20px;
-    transition: transform 0.2s ease;
-    padding: 0.5rem;
-
-}
-.sources:hover{
-    transform: scale(1.2);
-
-}
-.menu_m{
-    color: #F41606;
-    
-}
-.menu_s{
-    color: #439B67;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
 .text{
-    color: white;
+    color: #18F071;
     text-align: center;
-    font-size: 20px;
-    padding: 1rem;
+    font-size: 2.5rem;
+    padding: 2rem;
 }
 .source{
     color: white;
@@ -107,31 +26,33 @@ a{
 .flexbox_games{
     padding: 0.5rem;
     display: flex;
-    background-color: white;
+    background-color: transparent;
     flex-wrap: wrap;
     gap: 1.5rem;
-    transition: transform 0.2s ease;
 }
 
 .spacefly{
-    transition: transform 0.2s ease;
+    transition: border-color 0.25s;
     border-style: solid;
-    border-color: white;
+    border-color: transparent;
     max-width: 200px;
     min-width: 16px;
+    border-radius: 1.5rem;
 }
 .spacefly:hover{
-    transform: scale(1.03);
+    border-color: #646cff;
 }
 
 .pizza{
     max-width: 200px;
     min-width: 16px;
-    transition: transform 0.2s ease;
+    transition: border-color 0.25s;
     border-style: solid;
-    border-color: white;
+    border-color: transparent;
+    border-radius: 1.5rem;
 }
 .pizza:hover{
-    transform: scale(1.03);
+    border-color: #646cff;
+
 }
 
