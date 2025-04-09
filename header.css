@@ -8,7 +8,7 @@ html{
 }
 
 header{
-    font-size: 25px;
+    font-size: 2.5rem;
     margin: 0;
     padding: 1rem;
     font-family: "Press Start 2P", system-ui;
@@ -30,8 +30,8 @@ header{
 .dropbtn {
   background-color: rgb(49, 49, 49);
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  padding: 1.5rem;
+  font-size: 1.5rem;
   border-style: solid;
   border-width: 0.2rem;
   border-color: rgb(49, 49, 49);
@@ -59,8 +59,7 @@ header{
   display: none;
   position: absolute;
   background-color: transparent;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 10rem;
   z-index: 1;
   margin-top: 0.1rem;
 }
@@ -70,7 +69,7 @@ header{
   color: white;
   background-color: rgb(49, 49, 49);
   border-color: rgb(49, 49, 49);
-  padding: 12px 16px;
+  padding: 1rem;
   text-decoration: none;
   font-size: 1.2rem;
   border-radius: 1.5rem;
