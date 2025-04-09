@@ -1,15 +1,3 @@
-
-
-header{
-    font-size: 25px;
-    margin: 0;
-    padding: 1rem;
-    font-family: "Press Start 2P", system-ui;
-    background-image: url(https://t3.ftcdn.net/jpg/04/70/73/64/360_F_470736409_BjMO4XuHintvApcIyuJM7DR65rTfWdXQ.jpg);
-
-}
-
-
 /* main menu*/
 
 .box{
@@ -20,13 +8,13 @@ header{
   color: #18F071;
 }
 .hello{
-  font-size: 20px;
+  font-size: 1.8rem;
   color: #F41606;
   text-align: center;
 }
 
 p{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .box2{
   text-align: center;

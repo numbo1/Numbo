@@ -5,6 +5,12 @@
     text-align: center;
     margin: 1rem;
     padding: 1rem;
+    will-change: filter;
+    transition: filter 300ms;
+    user-select: none;
+}
+.hello:hover {
+    filter: drop-shadow(0 0 1em #646cff);
 }
 
 .flex_hobby{
